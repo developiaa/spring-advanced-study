@@ -32,7 +32,7 @@ public class ContextV2Test {
 
         context.execute(new Strategy() {
             @Override
-            public void call() {q
+            public void call() {
                 log.info("비즈니스 로직 2 실행");
             }
         });
